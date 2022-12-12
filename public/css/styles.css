@@ -4,4 +4,17 @@
 .gris-oscuro{color: #666;}
 .gris-claro{color: #ebebeb;}
 .verde{color:#39b54a;}
+.negro{color:black;}
 
+
+
+.fuente{font-family: 'Roboto', sans-serif;}
+.cuerpos-texto{font-size: 12px;}
+.titulares{font-size: 24px;}
+.precios{font-size: 18px;}
+.descuentos{font-size: 16px;}
+.descripciones{font-size: 16px;}
+body{
+    background-color: gold;
+    background-size: cover;
+}
