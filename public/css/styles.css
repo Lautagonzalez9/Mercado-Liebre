@@ -14,7 +14,7 @@
 .precios{font-size: 18px;}
 .descuentos{font-size: 16px;}
 .descripciones{font-size: 16px;}
-body{
+header{
     background-color: gold;
     background-size: cover;
 }
