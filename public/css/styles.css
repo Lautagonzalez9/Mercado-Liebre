@@ -18,3 +18,37 @@ header{
     background-color: gold;
     background-size: cover;
 }
+
+.presetcaja{
+    width: 90%;
+    margin: 10px;
+    border-top: 1px solid #ebebeb;
+}
+
+main{
+    background-color: rgb(218, 216, 216);
+}
+footer{
+    background-color: rgb(218, 216, 216);
+}
+
+
+@media(min-widht:481px){
+    body{
+        min-width:361px;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (min-widht:769px){
+    body{
+min-width: 769px;
+box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+/* @media(min-widht:0px){
+    body{
+        
+    }
+} */
