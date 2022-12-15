@@ -30,6 +30,34 @@ text-align: left;}
     border-radius: 50px;
 }
 
+.contenedor-img-header-logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.contenedor-descrip-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor-navbar-1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+
+.contenedor-navbar-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+
 .display{
     display: block;
 }
