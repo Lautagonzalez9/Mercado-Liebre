@@ -1,4 +1,8 @@
 
+*{
+    box-sizing: border-box;
+}
+
 main{
     background-color: rgb(231, 231, 231);
 }
@@ -20,8 +24,39 @@ header{
 
 .titulares{font-size: 24px;}
 
-.precios{font-size: 18px;
-text-align: left;}
+.barra{
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contenedorNav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contenedorHomeNav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:10px
+}
+
+.precios{
+font-size: 18px;
+text-align: left;
+width: 30%;
+}
 
 .icono-camion{
     color: rgb(3,175,3);
@@ -62,9 +97,26 @@ text-align: left;}
     display: block;
 }
 
-.descuentos{font-size: 16px;
-text-align: left;
-color: rgb(3,175,3);}
+.contenedorLogoBarra{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contenedorPrecios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.descuentos{
+font-size: 16px;
+color: rgb(3,175,3);
+margin: 10px;
+}
 
 .descripciones{font-size: 16px;
 text-align: left;
@@ -102,12 +154,19 @@ color: rgb(180,180,180);}
     margin: 10px;
     border-top: 1px solid #ebebeb;
     text-align: left;
+    text-align: right;
+}
+
+.contenedorProducto{
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .descripciones-footer{
     font-size: 16px;
 }
-
+/* tablet */
 @media(min-width:481px){
     body{
         min-width:361px;
@@ -117,7 +176,7 @@ color: rgb(180,180,180);}
         display: none;
     }
 }
-
+/* pc */
 @media (min-width:769px){
     body{
 min-width: 769px;
@@ -127,7 +186,7 @@ box-shadow: 0px 0px 10px rgb(100, 100, 100);
         display: none;
     }
 }
-
+/* mobile */
 @media(max-width:480px){
     .descripciones{
     display:none
