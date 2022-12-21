@@ -11,3 +11,5 @@ app.listen(3000,()=>{console.log('Servidor en puerto 3000 corriendo')});
 //Rutas & links.
 app.get('localhost:3000/',(req,res)=>{res.sendFile(path.join(__dirname,'./views/home.html'))});
 app.get('/',(req,res)=>{res.sendFile(path.join(__dirname,'./views/home.html'))});
+app.get('/register',(req,res)=>{res.sendFile(path.join(__dirname,'./views/register.html'))})
+app.get('/login',(req,res)=>{res.sendFile(path.join(__dirname,'./views/login.html'))})

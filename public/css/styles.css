@@ -29,6 +29,7 @@ header{
     height: 30%;
     text-align: center;
     margin-top: 5%;
+    font-size: 25px;
 }
 
 .contenedorNav{
@@ -107,7 +108,6 @@ width: 30%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
 }
 
@@ -160,12 +160,49 @@ color: rgb(180,180,180);}
 .contenedorProducto{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 
 }
 
 .descripciones-footer{
     font-size: 16px;
 }
+
+.register{
+ display: flex;  
+ flex-wrap: wrap;
+ flex-direction: column; 
+}
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.intereses{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.loginProfile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+}
+
+.button{
+    width: 80%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
 /* tablet */
 @media(min-width:481px){
     body{
@@ -175,6 +212,7 @@ color: rgb(180,180,180);}
     .burguer-menu{
         display: none;
     }
+
 }
 /* pc */
 @media (min-width:769px){
