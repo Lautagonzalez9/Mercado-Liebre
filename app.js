@@ -19,6 +19,6 @@ app.get('/login',(req,res)=>{res.sendFile(path.join(__dirname,'./views/login.htm
 
 
 Scripts:{
-    start:"node src/app.js"
+    start:"node app.js"
     test:"nodemon src/app.js"
 }
