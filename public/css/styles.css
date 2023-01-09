@@ -24,6 +24,12 @@ header{
 
 .titulares{font-size: 24px;}
 
+.campobarra{
+    display: flex;
+    justify-content: center;
+    margin-left: 100%;
+}
+
 .barra{
     width: 50%;
     height: 30%;
@@ -36,13 +42,14 @@ header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 }
 
 .contenedorHomeNav{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -84,13 +91,12 @@ width: 30%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content:center;
 }
 
 .contenedor-navbar-2{
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content:flex-end;
     
 }
 
