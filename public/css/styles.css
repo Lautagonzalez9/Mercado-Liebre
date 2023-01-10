@@ -148,6 +148,11 @@ article{
     width: 50%;
 }
 
+.contenedorArticles{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .button{
     width: 80%;
     padding: 5px;
@@ -157,38 +162,22 @@ article{
 }
 
 
-/* tablet */
-@media(min-width:481px){
-    body{
-        min-width:361px;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+@media (min-width: 361px){
+    main section article .descripciones{
+        display:none;
     }
-    .burguer-menu{
-        display: none;
+    article{
+        width: 40%;
     }
 }
-/* pc */
-@media (min-width:769px){
-    body{
-min-width: 769px;
-box-shadow: 0px 0px 10px rgb(100, 100, 100);
+@media (min-width: 769px){
+    article{
+        width: 22%;
     }
-    .burger-menu{
-        display: none;
-    }
+    .navbar{
+        display:contents;
 }
-/* mobile */
-@media(max-width:480px){
-    .descripciones{
-    display:none
-        }
-    .main-navbar{
-        display: none;
-    }
-    .login{
-        display: none;
-    }
-    body{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    }
+.burger-menu{
+   display:none ;
+}
+}
